@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous"
+    />
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwj4zYTwuY2GAxUIEwYAHRGUBqIYABAAGgJ3cw&ase=2&gclid=CjwKCAjwl4yyBhAgEiwADSEjeC-e0Hd4EvhwPDMB6WpOZ9K_gNnLgUtjIBmIMXZewaq8dSbruwJvlxoCtzsQAvD_BwE&ohost=www.google.com&cid=CAESV-D2T7ATfPBCaUdiUmK9XqtwGCf_s7097NlYvLNEd_crNjMR31mvMXfbgvyFa4n4ObT_8JCCM3huJuOEMLq0Dr43y6flAykNb61N5RsLtjMZP_mvbRx3-A&sig=AOD64_26JnMyxOoiXSjYzTLtM7Gzl2jtnw&q&nis=4&adurl&ved=2ahUKEwj1of7vuY2GAxVNRvEDHZ7eCVwQ0Qx6BAgGEAE">Aliexspress</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">New</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Guide</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          categories
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <nav class="navbar bg-body-tertiary">
+                    <div class="container-fluid">
+                      <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                      </form>
+                    </div>
+                  </nav>
+                </div>
+              </nav>
+        </div>
+    </header>
+    <main>
+        <section class="carousel">
+            <div class="container">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./images/first-slide.jpg" class="d-block w-100" alt="image">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/second-slide.jpg" class="d-block w-100" alt="image">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/third-slide.webp" class="d-block w-100" alt="image">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </section>
+        <section class="cards">
+            <div class="container">
+              <ul class="cards-list">
+                <li class="cards-item">
+                  <div class="card" style="width: 18rem;">
+                    <img src="./images/kitty-pants.webp" class="card-img-top" alt="pants">
+                    <div class="card-body">
+                      <h5 class="card-title">Hello kitty pants</h5>
+                      <a href="https://www.aliexpress.com/gcp/300000556/8eAWDEY6Zi?spm=a2g0o.home.choicetab.8.650c76dbLt3QYY&disableNav=YES&pha_manifest=ssr&_immersiveMode=true&productIds=1005006439365320" class="btn btn-primary">Buy</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="cards-item">
+                  <div class="card" style="width: 18rem;">
+                    <img src="./images/kitty-slippers.webp" class="card-img-top" alt="slippers">
+                    <div class="card-body">
+                      <h5 class="card-title">Hello kitty slippers</h5>
+                      <a href="https://www.aliexpress.com/gcp/300000556/8eAWDEY6Zi?spm=a2g0o.home.choicetab.8.650c76dbLt3QYY&disableNav=YES&pha_manifest=ssr&_immersiveMode=true&productIds=1005006439365320" class="btn btn-primary">Buy</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="cards-item">
+                  <div class="card" style="width: 18rem;">
+                    <img src="./images/funko-pop.webp" class="card-img-top" alt="funko-pop">
+                    <div class="card-body">
+                      <h5 class="card-title">Hello kitty Funko PoP</h5>
+                      <a href="https://www.aliexpress.com/item/1005006383301853.html?spm=a2g0o.tm1000003765.d2.1.5e9e38f262cW2z&pdp_ext_f=%7B%22ship_from%22:%22CN%22,%22sku_id%22:%2212000036974454821%22%7D&scm=1007.45714.362894.0&scm_id=1007.45714.362894.0&scm-url=1007.45714.362894.0&pvid=89daf4e8-d927-4583-ae04-9dbcc94cbb8a&utparam=%257B%2522process_id%2522%253A%2522standard-portal-process-2%2522%252C%2522x_object_type%2522%253A%2522product%2522%252C%2522pvid%2522%253A%252289daf4e8-d927-4583-ae04-9dbcc94cbb8a%2522%252C%2522belongs%2522%253A%255B%257B%2522floor_id%2522%253A%252239799381%2522%252C%2522id%2522%253A%252232294007%2522%252C%2522type%2522%253A%2522dataset%2522%257D%252C%257B%2522id_list%2522%253A%255B%255D%252C%2522type%2522%253A%2522gbrain%2522%257D%255D%252C%2522pageSize%2522%253A%252220%2522%252C%2522language%2522%253A%2522en%2522%252C%2522scm%2522%253A%25221007.45714.362894.0%2522%252C%2522countryId%2522%253A%2522UA%2522%252C%2522scene%2522%253A%2522SD-Waterfall%2522%252C%2522tpp_buckets%2522%253A%252221669%25230%2523265320%252389_21669%25234190%252319160%2523292_35714%25230%2523362894%25230%2522%252C%2522x_object_id%2522%253A%25221005006383301853%2522%257D&pdp_npi=4%40dis%21UAH%21674%2C92%20%D0%B3%D1%80%D0%BD.%21233%2C99%20%D0%B3%D1%80%D0%BD.%21%21%21120.02%2141.61%21%402103011417157009666442943eb4f7%2112000036974454821%21gdf%21UA%21%21&aecmd=true" class="btn btn-primary">Buy</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="cards-item">
+                  <div class="card" style="width: 18rem;">
+                    <img src="./images/hight-light.webp" class="card-img-top" alt="night-light">
+                    <div class="card-body">
+                      <h5 class="card-title">Sanrio night light</h5>
+                      <a href="https://www.aliexpress.com/item/1005005968105435.html?spm=a2g0o.detail.pcDetailBottomMoreOtherSeller.11.18eaBaWsBaWsoa&gps-id=pcDetailBottomMoreOtherSeller&scm=1007.40050.354490.0&scm_id=1007.40050.354490.0&scm-url=1007.40050.354490.0&pvid=25ad0888-6e0f-489d-847c-2b39a2016066&_t=gps-id:pcDetailBottomMoreOtherSeller,scm-url:1007.40050.354490.0,pvid:25ad0888-6e0f-489d-847c-2b39a2016066,tpp_buckets:668%232846%238111%231996&pdp_npi=4%40dis%21UAH%21587.98%21203.00%21%21%21104.56%2136.10%21%402103011017157015524721151e92e7%2112000035097231521%21rec%21UA%21%21AB&utparam-url=scene%3ApcDetailBottomMoreOtherSeller%7Cquery_from%3A" class="btn btn-primary">Buy</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="cards-item">
+                  <div class="card" style="width: 18rem;">
+                    <img src="./images/for-car.webp" class="card-img-top" alt="sanrio">
+                    <div class="card-body">
+                      <h5 class="card-title">Sanrio Car Air Outlet Fragrance Decoration</h5>
+                      <a href="https://www.aliexpress.com/item/1005006299343911.html?spm=a2g0o.detail.pcDetailTopMoreOtherSeller.4.5aebrlpbrlpbeT&gps-id=pcDetailTopMoreOtherSeller&scm=1007.40050.354490.0&scm_id=1007.40050.354490.0&scm-url=1007.40050.354490.0&pvid=6a90d060-7240-42b6-be10-8632235617b8&_t=gps-id:pcDetailTopMoreOtherSeller,scm-url:1007.40050.354490.0,pvid:6a90d060-7240-42b6-be10-8632235617b8,tpp_buckets:668%232846%238115%232000&pdp_npi=4%40dis%21UAH%21235.62%2182.16%21%21%2141.90%2114.61%21%402103200617157015715296294e3afc%2112000036671486386%21rec%21UA%21%21AB&utparam-url=scene%3ApcDetailTopMoreOtherSeller%7Cquery_from%3A" class="btn btn-primary">Buy</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="cards-item">
+                  <div class="card" style="width: 18rem;">
+                    <img src="./images/sanrio-plushie.webp" class="card-img-top" alt="plushie">
+                    <div class="card-body">
+                      <h5 class="card-title">Sanrio plushie</h5>
+                      <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="cards-item">
+                  <div class="card" style="width: 18rem;">
+                    <img src="./images/cinnamoroll-headrest.webp" class="card-img-top" alt="pants">
+                    <div class="card-body">
+                      <h5 class="card-title">Cinnamoroll headrest</h5>
+                      <a href="https://www.aliexpress.com/item/1005004768236995.html?spm=a2g0o.detail.pcDetailBottomMoreOtherSeller.18.6d0a14c0vwW5s7&gps-id=pcDetailBottomMoreOtherSeller&scm=1007.40050.354490.0&scm_id=1007.40050.354490.0&scm-url=1007.40050.354490.0&pvid=ab316eb4-61cd-448e-afa1-ad6b86b4398a&_t=gps-id:pcDetailBottomMoreOtherSeller,scm-url:1007.40050.354490.0,pvid:ab316eb4-61cd-448e-afa1-ad6b86b4398a,tpp_buckets:668%232846%238111%231996&pdp_npi=4%40dis%21UAH%21144.64%2140.11%21%21%213.57%210.99%21%402103205117157027455313514e3a48%2112000030402456444%21rec%21UA%21%21AB&utparam-url=scene%3ApcDetailBottomMoreOtherSeller%7Cquery_from%3A" class="btn btn-primary">Buy</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="cards-item">
+                  <div class="card" style="width: 18rem;">
+                    <img src="./images/cinnamoroll-plush.webp" class="card-img-top" alt="pants">
+                    <div class="card-body">
+                      <h5 class="card-title">Cinnamoroll plushie</h5>
+                      <a href="https://www.aliexpress.com/item/1005005123537829.html?spm=a2g0o.detail.pcDetailBottomMoreThisSeller.13.2774dDQxdDQxI8&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.291025.0&scm_id=1007.13339.291025.0&scm-url=1007.13339.291025.0&pvid=cbce9ea6-ed24-435e-81bd-1feed7cf8834&_t=gps-id:pcDetailBottomMoreThisSeller,scm-url:1007.13339.291025.0,pvid:cbce9ea6-ed24-435e-81bd-1feed7cf8834,tpp_buckets:668%232846%238109%231935&pdp_npi=4%40dis%21UAH%21993.41%21993.41%21%21%2124.52%2124.52%21%402103011217157029037345142e8ab1%2112000031752368921%21rec%21UA%21%21AB&utparam-url=scene%3ApcDetailBottomMoreThisSeller%7Cquery_from%3A" class="btn btn-primary">Buy</a>
+                    </div>
+                  </div>
+                </li>
+              </ul>   
+            </div>
+            <div class="see-more">
+              <div class="d-grid gap-2 col-6 mx-auto">
+                <button class="btn btn-primary" type="button">See More</button>
+              </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+</html>

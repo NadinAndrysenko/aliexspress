@@ -1,0 +1,21 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .cards {
+    padding-top: 50px;
+  }
+
+  .cards-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+
+  .see-more {
+    padding-bottom: 50px;
+    padding-top: 30px;
+  }
